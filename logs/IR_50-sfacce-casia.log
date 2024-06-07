@@ -1,0 +1,19 @@
+============================================================
+['/home/developbharat/workspaces/SFace/.venv/lib/python3.8/site-packages/mxnet/libmxnet.so']
+============================================================
+Traceback (most recent call last):
+  File "train_SFace_torch.py", line 8, in <module>
+    from image_iter_rec import FaceDataset
+  File "/home/developbharat/workspaces/SFace/image_iter_rec.py", line 18, in <module>
+    import mxnet as mx
+  File "/home/developbharat/workspaces/SFace/.venv/lib/python3.8/site-packages/mxnet/__init__.py", line 24, in <module>
+    from .context import Context, current_context, cpu, gpu, cpu_pinned
+  File "/home/developbharat/workspaces/SFace/.venv/lib/python3.8/site-packages/mxnet/context.py", line 24, in <module>
+    from .base import classproperty, with_metaclass, _MXClassPropertyMetaClass
+  File "/home/developbharat/workspaces/SFace/.venv/lib/python3.8/site-packages/mxnet/base.py", line 217, in <module>
+    _LIB = _load_lib()
+  File "/home/developbharat/workspaces/SFace/.venv/lib/python3.8/site-packages/mxnet/base.py", line 208, in _load_lib
+    lib = ctypes.CDLL(lib_path[0], ctypes.RTLD_LOCAL)
+  File "/usr/lib/python3.8/ctypes/__init__.py", line 373, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libcudart.so.9.0: cannot open shared object file: No such file or directory
