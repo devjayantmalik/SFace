@@ -1,6 +1,8 @@
 # README
 This is the code of SFace based on `PyTorch`, we also have a [MxNet](https://github.com/zhongyy/SFace/tree/main/SFace_mxnet) version. 
 
+> I wasn't able to replicate it or make it run, so can't say anything. This code depends on numpy and other libraries which do not build on ubuntu 22 and neither on ubuntu 16. Author has not even included requirements.txt file with version codes, so i wasn't able to do much with this. Will look into this in future, incase some interesting case comes up! Archiving this for now.
+
 ## Usage Instructions
 
 The code is adopted from [InsightFace](https://github.com/deepinsight/insightface) and [face.evoLVe](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch). I sincerely appreciate for their contributions.
